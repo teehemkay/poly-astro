@@ -69,5 +69,9 @@
                                poly-astro-style-tag-lang-innermode
                                poly-astro-style-innermode))
 
+;;;###autoload
+(add-to-list 'auto-mode-alist '("\\.astro\\'" . poly-astro))
+
+
 (provide 'poly-astro)
 ;;; poly-astro.el ends here
